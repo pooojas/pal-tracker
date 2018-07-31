@@ -27,6 +27,10 @@ public class TimeEntry {
 
     }
 
+    public TimeEntry(int projectId, int userId, LocalDate parse, int i) {
+        this(Long.valueOf   (projectId),Long.valueOf(userId),parse,i);
+    }
+
 
     public void setId(long id) {
         this.id = id;

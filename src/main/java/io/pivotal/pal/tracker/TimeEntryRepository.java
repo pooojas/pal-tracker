@@ -5,11 +5,11 @@ import java.util.List;
 public interface TimeEntryRepository {
    TimeEntry create(TimeEntry timeEntry);
 
-   TimeEntry find(long id);
+   TimeEntry find(Long id);
 
-    void delete(long id);
+    void delete(Long id);
 
     List<TimeEntry> list();
 
-    TimeEntry update(long id, TimeEntry timeEntry);
+    TimeEntry update(Long id, TimeEntry timeEntry);
 }
