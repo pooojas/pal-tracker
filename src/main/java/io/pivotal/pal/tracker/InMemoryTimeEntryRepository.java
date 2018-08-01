@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 
-@Repository
+
 public class InMemoryTimeEntryRepository implements TimeEntryRepository {
 
     Map<Long, TimeEntry> entries = new HashMap<Long, TimeEntry>();
